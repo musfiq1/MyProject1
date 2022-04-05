@@ -1,0 +1,74 @@
+.py-5{
+        background-color: $color-black;
+        padding-top: 50px;
+    .container-fluid{
+        position: relative;
+        padding: 0px 100px;
+        background-color: $color-black;
+        padding-top: 50px;
+        .row{
+            display: flex;
+            flex-wrap: nowrap;
+            margin-bottom: 80px;
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: contain;
+            .custom-col{
+                padding: 0px 60px;
+                h5{
+                    font-size: 23px;
+                    font-family: $font1;
+                    color: $color-white;
+                    margin-bottom: 40px;
+                }
+                .flex-column{
+                    .nav-item{
+                        margin: 15px 0px;  
+                        .nav-link{
+                            text-decoration: none;
+                            font-family: "Nunito Sans", sans-serif;
+                            color: #7d91a0;
+                            margin: 0px 0px;
+                            font-size: 17px;
+                            line-height: 30px;
+                            position: relative;
+                            transition: all 1s linear;
+                            &:hover{                               
+                                color: $color-white;
+                                // left: 10px;
+                                transition: all 1s linear;
+                                color: $color-yellow;
+                            }
+                        }
+                    }
+                }
+            }
+            #subs-col{
+                padding: 0px 60px;
+                margin: 0;
+                #subs-form{
+                    h5{
+                        font-size: 23px;
+                        font-family: $font1;
+                        color: $color-white;
+                        margin-bottom: 40px;
+                    }
+                    p{
+                            font-family: "Nunito Sans", sans-serif;
+                            color: #7d91a0;
+                            margin-bottom: 20px;
+                            padding-top: 10px;
+                            font-size: 17px;
+                            line-height: 30px;
+                            position: relative;
+                    }
+                    .d-flex{
+                        label{}
+                        input{}
+                        button{}
+                    }
+                }
+            }
+        }
+    }
+}

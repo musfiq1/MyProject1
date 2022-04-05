@@ -1,0 +1,41 @@
+header{
+    margin-bottom: 10px;
+    .navbar-expand-lg{
+        background-color: $color-red !important;  
+        .container-fluid{
+            .navbar-toggler{}
+            #logoId{
+                width: 70px;
+                height: 70px;
+                margin-right: 100px;
+                margin-left: 50px;
+                .logo1{
+                    padding: 10% 10%;
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        margin-right: 75px;
+                        .nav-link{
+                            font-size: 20px;
+                            font-weight: 700;
+                            color: white;
+                            transition: all 1s linear;
+                            &:hover{
+                                color: $color-yellow;
+                                transition: all 1s linear;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
